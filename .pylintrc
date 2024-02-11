@@ -1,9 +1,10 @@
 [MAIN]
---disable=C0114, # missing-module-docstring
---disable=C0115, # Missing-class-docstring
---disable=C0116, # missing-function-docstring
---disable=W0703, # Catching to general exception Exception
---disable=E0015,
+disable=
+      C0114, # missing-module-docstring
+      C0115, # Missing-class-docstring
+      C0116, # missing-function-docstring
+      W0703, # Catching to general exception Exception
+      E0015,
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists

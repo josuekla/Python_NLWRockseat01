@@ -4,3 +4,4 @@ def my_func():
 # Pylint
 # snake_case -> Funções, Variáveis, Métodos
 # PascalCase -> Classes
+# teste

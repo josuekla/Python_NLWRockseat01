@@ -7,6 +7,7 @@ disable=
       E0015,
       W0012, # unknown-option-value
       R0903, # too-few-public-methods
+      W0719, # broad-expetion-raised
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
